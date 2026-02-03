@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+}
+
+header{
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align:center;
+    background-color: #f4f4f4;
+}
+
+.destinations {
+    padding: 40px 30px
+}
+
+.destination-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    flex: 1 1 300px;
+}
+
+.plan-trip {
+    padding: 40px 30px;
+    background-color: f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #1e90ff;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+
+}
+
+header, footer {
+    background-color: #0a3d62;
+}
+
+.hero button {
+    background-color: #f39c12;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.why-us {
+    padding: 40px 20px;
+    margin-top: 0;
+    background-color: white;
+}
+
+.why-us ul {
+    margin-top: 15px;
+    padding-left: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.why-us-li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input, form select{
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #0a3d62;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
